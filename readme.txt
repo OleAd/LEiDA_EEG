@@ -1,9 +1,13 @@
-﻿
-LEADING EIGENVECTOR DYNAMICS ANALYSIS (LEiDA) adapted for EEG
+﻿LEADING EIGENVECTOR DYNAMICS ANALYSIS (LEiDA) adapted for EEG
 
 LEiDA consists of computing instantaneous phase coherence matrices 
 and clustering the corresponding leading eigenvectors into a set of 
 patterns that can be visualized on the cortical surface or in matrix format.
+
+This adaptation for EEG-data functions on source-reconstructed data,
+and calculate the phase coherences matrices over a window of samples.
+
+To function, this script requires SPM and the Circular Statistics Toolbox.
   
 This repository is forked from the original repository, which included 
 the codes and data to replicate the analysis reported in the manuscript:
